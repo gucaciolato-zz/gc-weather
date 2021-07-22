@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Clima</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/452cc4025a.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <h1>Será que chove?</h1>
+
+    <form class="busca">
+        <input type="search" id="searchInput" placeholder="Cidade" />
+        <button>Buscar</button>
+    </form>
+
+    <div class="resultado">
+        <div class="titulo">--</div>
+
+        <div class="info">
+            <div class="temp">
+                <div class="tempTitulo">Temperatura</div>
+                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                <div class="ventoNome">--</div>
+            </div>
+            <div class="vento">
+                <div class="ventoTitulo">Vento</div>
+                <div class="ventoInfo">-- <span>/h</span></div>
+                <div class="ventoArea">
+                    <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso"></div>
+    <div>
+        <ul>
+            <li>
+                <a href="https://linkedin.com/in/gustavocaciolato"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/gucaciolato"><i class="fab fa-github"></i></a>
+            </li>
+            <li>
+                <a href="https://wa.me/5518981488133"><i class="fab fa-whatsapp"></i></a>
+            </li>
+            <li>
+                <a href="mailto:caciolato@outlook.com"><i class="fas fa-envelope-open-text"></i></a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+            <p>&copy; gucaciolato 2021</p>
+        </div> 
+    </footer>
+
+    <script src="./assets/js/api.js"></script>
+</body>
+</html>
